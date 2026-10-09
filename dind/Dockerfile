@@ -16,4 +16,3 @@ VOLUME /var/lib/
 
 ENTRYPOINT ["/entrypoint.sh"]
 
-CMD ["dockerd", "--host=unix:///var/run/docker.sock", "&"]
